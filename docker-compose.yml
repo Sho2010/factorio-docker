@@ -1,0 +1,8 @@
+factorio:
+  image: 'sho2010/factorio:latest'
+  volumes:
+    - /factorio/saves
+  environment:
+    - WORLD_NAME=world0
+  ports:
+    - '34197:34197/udp'
